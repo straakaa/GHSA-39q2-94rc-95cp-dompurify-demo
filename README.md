@@ -20,6 +20,10 @@ Open the browser and use the home page to:
 - Launch a pre-built attack with one click
 - Try your own `allowTags` / `content` combinations
 
+## How it works
+
+![Sanitization flow diagram](GHSA-39q2-94rc-95cp-diagram.png)
+
 ## The vulnerability
 
 ```js
@@ -45,13 +49,6 @@ DOMPurify.sanitize(input, {
 
 // Fix 2: upgrade to DOMPurify 3.4.0
 npm install dompurify@3.4.0
-```
-
-## Files
-
-```
-server.js   Express server with vulnerable /preview endpoint
-package.json
 ```
 
 ## Advisory
