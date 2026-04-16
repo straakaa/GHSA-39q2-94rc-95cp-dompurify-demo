@@ -1,0 +1,14 @@
+{
+  "name": "GHSA-39q2-94rc-95cp-dompurify-demo",
+  "version": "1.0.0",
+  "description": "Demo: GHSA-39q2-94rc-95cp — DOMPurify FORBID_TAGS bypass via ADD_TAGS function",
+  "scripts": {
+    "start": "node server.js",
+    "attack": "node attack.js"
+  },
+  "dependencies": {
+    "dompurify": "3.3.3",
+    "express": "^4.18.2",
+    "jsdom": "^24.0.0"
+  }
+}
