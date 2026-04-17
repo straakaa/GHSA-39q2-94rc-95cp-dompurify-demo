@@ -24,6 +24,8 @@ Open the browser and use the home page to:
 
 ![Sanitization flow diagram](GHSA-39q2-94rc-95cp-diagram.png)
 
+![Server GUI — attack demo](server-gui.png)
+
 ## The vulnerability
 
 ```js
